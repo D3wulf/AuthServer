@@ -42,7 +42,7 @@ app.get('*', (req, res) => {
 
     res.sendFile(path.resolve(__dirname, 'public/index.html'));
 
-})
+});
 
 //listen, puerto , callback
 app.listen(process.env.PORT, () => {
